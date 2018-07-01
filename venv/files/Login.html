@@ -5,38 +5,47 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
+    <title>Eelectronics</title>
     <link rel="stylesheet" href="login.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 <body>
-<header>
 
+<header>
+    <div>
+        <h1 id="main_name">Croma</h1>
+    </div>
 </header>
 
- <div class="container">
-        <div class="card card-container">
-            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
-            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
-            <p id="profile-name" class="profile-name-card"></p>
-            <form class="form-signin" action="/hello" method="get">
-                <span id="reauth-email" class="reauth-email"></span>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" name="email" required autofocus>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" name="pass" required>
-                <div id="remember" class="checkbox">
-                    <label>
-                        <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                </div>
-                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
-            </form><!-- /form -->
-            <a href="#" class="forgot-password">
-                Forgot the password?
-            </a>
-        </div><!-- /card-container -->
-    </div><!-- /container -->
+<nav>
+    <ul>
+        <li><a href="demo.html" >Home</a></li>
+        <li><a href="">Tranding</a></li>
+        <li><a href="">Contact US</a></li>
+        <li><a href="" id="active">Login</a></li>
+    </ul>
+
+</nav>
+
+<main>
+<div id="con">
+<img src="img/login.jpg" id="img1">
+    <div id="overlay">
+    <div id="form">
+        <form>
+            <h3>Welcome</h3>
+            Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   : <input type="email" name="email"> <br><br>
+            Password : <input type="password" name="pass"><br><br><br><br>
+            <input type="submit" value="Submit" style="text-align:center">
+
+        </form>
+    </div>
+  </div>
+</div>
+
+</main>
+<footer>
+
+</footer>
 
 </body>
 </html>
