@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eelectronics</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/login.css') }}">
+</head>
+<body>
+
+<header>
+    <div>
+        <h1 id="main_name">Appliance Yard</h1>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="demo.html" >Home</a></li>
+        <li><a href="">Trending</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="" id="active">Login</a></li>
+    </ul>
+
+</nav>
+
+<main>
+<div id="con">
+<img src="{{ url_for('static',filename='img/login.jpg') }}" id="img1">
+    <div id="overlay">
+    <div id="form">
+        <form method="post" action="/login/">
+            <h3>Welcome</h3>
+            Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   : <input type="email" name="email"> <br><br>
+            Password : <input type="password" name="pass"><br><br><br><br>
+            <input type="submit" value="Submit" style="text-align:center">
+
+        </form>
+    </div>
+  </div>
+</div>
+
+</main>
+<footer>
+
+</footer>
+
+</body>
+</html>

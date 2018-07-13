@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eelectronics</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/demo.css') }}">
+</head>
+
+
+<body>
+
+<header>
+    <div>
+        <h1 id="main_name">Appliance Yard</h1>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="" id="active">Home</a></li>
+        <li><a href="">Trending</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="Login.html">Login</a></li>
+    </ul>
+
+</nav>
+
+<main>
+    <div id="con">
+  <img src="{{ url_for('static',filename='img/Shoping.jpg') }}" alt="Avatar" id="image">
+  <div id="overlay">
+    <div id="text">Welcome to a New World...!!!</div>
+  </div>
+</div>
+
+    <div id="title1">
+    <div id="con1">
+  <img src="{{ url_for('static',filename='img/tv.png') }}" alt="Avatar" id="image1">
+  <a href=""><div id="overlay1">
+    <div id="text1">Explore</div>
+  </div></a>
+</div>
+
+    <div id="con2">
+  <img src="{{ url_for('static',filename='img/iphone.jpg') }}" alt="Avatar" id="image2">
+  <a href=""><div id="overlay2">
+    <div id="text2">Explore</div>
+  </div></a>
+</div>
+
+
+
+ </div>
+</main>
+
+
+<footer>
+
+    <div id="foo" style="margin-top:700px;">
+        <h4>Created by Aakash pvt. limted.</h4>
+    </div>
+
+</footer>
+
+</body>
+</html>
